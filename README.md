@@ -24,7 +24,7 @@ There are several things to configure:
   * AIRDROP_MNEMONIC_TESTNET - your account mnemonic for testnet (each word is space separated).
   * AIRDROP_ACCOUNT_TESTNET - your account address for testnet.
   * AIRDROP_ASSET_TESTNET - your asset id for testnet.
-  * AIRDROP_ASSET_MULTIPLIER - if your asset has any decimals set it to 1xxxxxxx where x is 0 for each decimal place. Eg. for 6 secimal places use 1000000.
+  * AIRDROP_ASSET_MULTIPLIER - if your asset has any decimals set it to 1xxxxxxx where x is 0 for each decimal place. Eg. for 6 decimal places use 1000000.
   
 * index.js - Line [188](https://github.com/1fatalix1/asa-airdrop/blob/main/index.js#:~:text=start(%27testnet%27%2C%20true%2C%20rule)%3B) is your entry point, which takes 3 parameters
   * network: **mainnet** or **testnet**
